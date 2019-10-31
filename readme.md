@@ -1,3 +1,8 @@
+Windows API
+2000/XP/2k3 (WinHTTP)
+
+(This is the recommended version for Windows 2000 and XP)
+
   1.Purpose: The purpose of the COM is to communicate data (name value
     pairs) to the payment gateway and return the response (name value pairs) all
     over an encrypted link.  The COM can be used with multiple environments:
@@ -36,8 +41,9 @@
       
      Go to Start/Run and type:
      Regsvr32 /u c:\winnt\system32\pnpcom.dll
+
  
-   6.   For ASP (Visual Basic Script)
+   6.For ASP (Visual Basic Script)
      a.       Register the DLL as described in Step 5. above.
      b.       Create the object
       
@@ -76,11 +82,9 @@
         response.write "Place Transaction failed Code Here"
       End If
  
- 
 
   7.FAQ  
 
-      
      QUESTION 1> Unknown Name/Value pairs in the example project --
      'ABC' with a value '123'.  These fields are NOT listed in the integration
      document.  What is it and is it mandatory?
@@ -118,7 +122,6 @@
 
   8.Troubleshooting 
 
-   
      If you find that the applications appears to hang.  Please update the wininet
      library on your server.  You can do this by upgrading to the latest version of
      IE 5.5.
